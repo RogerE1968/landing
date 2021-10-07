@@ -1,0 +1,49 @@
+/* Your card CSS file */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://source.unsplash.com/hbb6GkG6p9M');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0px;
+}
+
+/* .h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: 10px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+} */
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: linear-gradient(#e94040, #da0e0e);
+  transition: background 0.3s ease;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(#e94040, #ff0202);
+  color: white;
+}
+
+/* background: linear-gradient(#147EFF, #0D55B2); */
